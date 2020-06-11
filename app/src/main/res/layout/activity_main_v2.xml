@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/helloTextLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let me say hi to you"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/inputPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="what is your name?"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorGrey"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
